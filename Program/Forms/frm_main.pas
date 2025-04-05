@@ -503,7 +503,9 @@ type
     lbl1: TLabel;
     lbl2: TLabel;
     lbl3: TLabel;
-    pmMarkSelected: TMenuItem;      // Выбор в поиске прочитанных книг
+    pmMarkSelected: TMenuItem;
+    ToolButton4: TToolButton;
+    ToolButton6: TToolButton;      // Выбор в поиске прочитанных книг
 
     //
     // События формы
