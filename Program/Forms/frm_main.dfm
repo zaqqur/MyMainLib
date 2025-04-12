@@ -2,6 +2,7 @@ object frmMain: TfrmMain
   Left = 0
   Top = 0
   HelpContext = 2
+  ActiveControl = edLocateAuthor
   Caption = 'MyHomeLib'
   ClientHeight = 772
   ClientWidth = 792
@@ -216,8 +217,23 @@ object frmMain: TfrmMain
       ImageIndex = 27
       Style = tbsSeparator
     end
-    object tbtnSettings: TToolButton
+    object ToolButton4: TToolButton
       Left = 611
+      Top = 0
+      Hint = #1054#1085#1086#1074#1080#1090#1080' '#1082#1086#1083#1077#1082#1094#1110#1111
+      Action = acToolsUpdateOnlineCollections
+      ImageIndex = 27
+    end
+    object ToolButton6: TToolButton
+      Left = 652
+      Top = 0
+      Width = 8
+      Caption = 'ToolButton6'
+      ImageIndex = 28
+      Style = tbsSeparator
+    end
+    object tbtnSettings: TToolButton
+      Left = 660
       Top = 0
       Action = acToolsSettings
       ImageIndex = 17
