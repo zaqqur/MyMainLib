@@ -38,6 +38,7 @@ type
   TfrmEditBookInfo = class(TForm)
     edSN: TEdit;
     edT: TEdit;
+    lvAuthors: TListView;
     btnADelete: TButton;
     btnAChange: TButton;
     btnAddAuthor: TButton;
@@ -60,7 +61,6 @@ type
     gbAuthors: TGroupBox;
     gbExtraInfo: TGroupBox;
     btnOpenBook: TButton;
-    lvAuthors: TListView;
     procedure FormShow(Sender: TObject);
     procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
     procedure btnGenresClick(Sender: TObject);
@@ -112,8 +112,8 @@ uses
   unit_Consts;
 
 resourcestring
-   rstrProvideAtLeastOneAuthor = 'Вкажіть мінімум одного автора!';
-   rstrProvideBookTitle = 'Вкажіть назву книги!';
+  rstrProvideAtLeastOneAuthor = '”кажите минимум одного автора!';
+  rstrProvideBookTitle = '”кажите название книги!';
 
 {$R *.dfm}
 

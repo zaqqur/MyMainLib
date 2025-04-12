@@ -1,4 +1,4 @@
-﻿unit frm_EditGroup;
+unit frm_EditGroup;
 
 interface
 
@@ -35,8 +35,8 @@ function EditGroup(var groupName: string): Boolean;
 implementation
 
 resourcestring
-   rstrNewGroup = 'Нова група';
-   rstrEditGroup = 'Редагування групи';
+  rstrNewGroup = 'Новая группа';
+  rstrEditGroup = 'Редактирование группы';
 
 {$R *.dfm}
 

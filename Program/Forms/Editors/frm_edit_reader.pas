@@ -54,7 +54,7 @@ uses
   unit_Helpers;
 
 resourcestring
-  rstrMissingFileType = 'Тип файлу не вказано!';
+  rstrMissingFileType = '“ип файла не указан!';
 
 {$R *.dfm}
 

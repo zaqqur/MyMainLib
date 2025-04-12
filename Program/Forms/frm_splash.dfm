@@ -2258,7 +2258,7 @@ object frmSplash: TfrmSplash
     Align = alBottom
     Alignment = taCenter
     AutoSize = False
-    Caption = #1030#1085#1110#1094#1110#1072#1083#1110#1079#1072#1094#1110#1103' ...'
+    Caption = #1048#1085#1080#1094#1080#1072#1083#1080#1079#1072#1094#1080#1103' ...'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clYellow
     Font.Height = -11
@@ -2274,7 +2274,7 @@ object frmSplash: TfrmSplash
     Width = 30
     Height = 23
     Alignment = taRightJustify
-    Caption = '2.4'
+    Caption = '2.3'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = 259580
     Font.Height = -19

@@ -39,8 +39,8 @@ uses
   frm_DownloadProgressForm;
 
 resourcestring
-  rstrSendToDevice = 'Надсилання на пристрій';
-  rstrDownloadingBooks = 'Скачування книг';
+  rstrSendToDevice = 'Отправка на устройство';
+  rstrDownloadingBooks = 'Скачивание книг';
 
 procedure ExportToDevice(
   const DeviceDir: string;

@@ -1,4 +1,4 @@
-﻿(* *****************************************************************************
+(* *****************************************************************************
   *
   * MyHomeLib
   *
@@ -7,12 +7,12 @@
   * Author(s)           Matvienko Sergei  matv84@mail.ru
   *                     Oleksiy Penkov  oleksiy.penkov@gmail.com
   * Created             12.02.2010
-  * Description         Запись в fb2info информации из базы
+  * Description         ������ � fb2info ���������� �� ����
   *
   * $Id: unit_WriteFb2Info.pas 1064 2011-09-02 11:33:04Z eg_ $
   *
   * History
-  * NickR 15.02.2010    Код переформатирован
+  * NickR 15.02.2010    ��� ����������������
   *
   ****************************************************************************** *)
 
@@ -39,7 +39,7 @@ uses
   Dialogs;
 
 resourcestring
-  rstrCheckTemplateValidity = 'Щось пішло не так. Перевірте правильність шаблону';
+  rstrCheckTemplateValidity = 'Что-то пошло не так';
 
 function WriteFb2InfoToStream(const BookRecord: TBookRecord; Stream: TStream): Boolean;
 var
@@ -131,7 +131,7 @@ var
 begin
   Result := False;
   try
-    { TODO -oNickR -cBug : MEMLEAK проверить }
+    { TODO -oNickR -cBug : MEMLEAK ��������� }
     XML := TXmlDocument.Create(FileName);
 
     XML.Active := True;

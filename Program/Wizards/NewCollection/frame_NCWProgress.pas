@@ -2,7 +2,7 @@
 {                                                                              }
 { MyHomeLib                                                                    }
 {                                                                              }
-{ Version 2                                                                  }
+{ Version 0.9                                                                  }
 { 20.08.2008                                                                   }
 { Copyright (c) Oleksiy Penkov  oleksiy.penkov@gmail.com                          }
 {                                                                              }

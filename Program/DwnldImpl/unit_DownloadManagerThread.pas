@@ -77,11 +77,11 @@ uses
   IdMultipartFormData;
 
 resourcestring
-rstrDone = 'Готово';
-  rstrConnecting = 'Підключення...';
-  rstrConnectingWithInfo = '%s %s %s Підключення...';
-  rstrDownloading = '%s. %s %s Завантаження: %s Kb/s %d %%';
-  rstrIgnoreDownloadErrors = 'Ігнорувати помилки завантаження?';
+  rstrDone = 'Готово';
+  rstrConnecting = 'Подключение ...';
+  rstrConnectingWithInfo = '%s %s %s Подключение ...';
+  rstrDownloading = '%s. %s %s Загрузка: %s Kb/s    %d %%';
+  rstrIgnoreDownloadErrors = 'Игнорировать ошибки загрузки ?';
 
 procedure TDownloadManagerThread.TerminateNow;
 begin

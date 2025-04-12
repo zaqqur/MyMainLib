@@ -35,7 +35,7 @@ uses
   FBDDocument,
   FBDAuthorTable,
   unit_Globals,
-  unit_Events, System.ImageList;
+  unit_Events;
 
 type
   TfrmConvertToFBD = class(TForm)
