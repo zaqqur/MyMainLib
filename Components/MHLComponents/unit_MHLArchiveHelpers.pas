@@ -6,6 +6,7 @@
   *
   * Author(s)           Aleksey Penkov
   * Created             20.05.2011
+  * Reworked            20.03.2023
   * Description
   *
   *
@@ -187,6 +188,7 @@ begin
                   Break;
                 end;
               end;
+      else FLastID := -1;			  
     end;
 
   end;
@@ -271,6 +273,7 @@ begin
   else
     FZip.Open(AFileName, zmWrite);
 
+  FLastID := 0;
 end;
 
 destructor TMHLZip.Destroy;
