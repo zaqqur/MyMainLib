@@ -1706,62 +1706,56 @@ object frmMain: TfrmMain
               AlignWithMargins = True
               Left = 3
               Top = 3
-              Width = 195
+              Width = 31
               Height = 13
               Align = alTop
               Caption = #1040#1074#1090#1086#1088
-              ExplicitWidth = 31
             end
             object Label24: TLabel
               AlignWithMargins = True
               Left = 3
               Top = 49
-              Width = 195
+              Width = 48
               Height = 13
               Align = alTop
               Caption = #1053#1072#1079#1074#1072#1085#1080#1077
-              ExplicitWidth = 48
             end
             object Label26: TLabel
               AlignWithMargins = True
               Left = 3
               Top = 141
-              Width = 195
+              Width = 28
               Height = 13
               Align = alTop
               Caption = #1046#1072#1085#1088
-              ExplicitWidth = 28
             end
             object Label6: TLabel
               AlignWithMargins = True
               Left = 3
               Top = 95
-              Width = 195
+              Width = 31
               Height = 13
               Align = alTop
               Caption = #1057#1077#1088#1080#1103
-              ExplicitWidth = 31
             end
             object Label7: TLabel
               AlignWithMargins = True
               Left = 3
               Top = 238
-              Width = 195
+              Width = 55
               Height = 13
               Align = alBottom
               Caption = #1040#1085#1085#1086#1090#1072#1094#1080#1103
-              ExplicitWidth = 55
             end
             object Label3: TLabel
               AlignWithMargins = True
               Left = 3
               Top = 191
-              Width = 195
+              Width = 86
               Height = 13
               Margins.Top = 0
               Align = alTop
               Caption = #1050#1083#1102#1095#1077#1074#1099#1077' '#1089#1083#1086#1074#1072
-              ExplicitWidth = 86
             end
             object edFFullName: TMHLButtonedEdit
               AlignWithMargins = True
@@ -2068,7 +2062,6 @@ object frmMain: TfrmMain
             Alignment = taRightJustify
             Caption = #1071#1079#1099#1082
             Layout = tlCenter
-            ExplicitLeft = 342
             ExplicitHeight = 13
           end
           object cbLangSelectF: TComboBox
@@ -2338,7 +2331,7 @@ object frmMain: TfrmMain
             Left = 662
             Top = 3
             Width = 107
-            Height = 36
+            Height = 13
             Align = alRight
             Alignment = taRightJustify
             Caption = '('#1082#1086#1083#1080#1095#1077#1089#1090#1074#1086' '#1082#1085#1080#1075')'
@@ -2349,7 +2342,6 @@ object frmMain: TfrmMain
             Font.Style = [fsBold]
             ParentFont = False
             Layout = tlCenter
-            ExplicitHeight = 13
           end
           object pbDownloadProgress: TProgressBar
             Left = 0

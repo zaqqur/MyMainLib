@@ -6083,12 +6083,12 @@ end;
 
 procedure TfrmMain.GoForumExecute(Sender: TObject);
 begin
-  SimpleShellExecute(Handle, 'https://github.com/OleksiyPenkov/myhomelib/');
+  SimpleShellExecute(Handle, PROGRAM_HOMEPAGE);
 end;
 
 procedure TfrmMain.GoSiteExecute(Sender: TObject);
 begin
-  SimpleShellExecute(Handle, 'https://github.com/OleksiyPenkov/myhomelib/');
+  SimpleShellExecute(Handle, PROGRAM_HOMEPAGE);
 end;
 
 procedure TfrmMain.miGoToAuthorClick(Sender: TObject);
