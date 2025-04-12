@@ -12,10 +12,8 @@ object frmConvertToFBD: TfrmConvertToFBD
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
-  OldCreateOrder = False
   OnCreate = FormCreate
   OnShow = FormShow
-  PixelsPerInch = 96
   TextHeight = 13
   object RzPanel1: TPanel
     Left = 0
@@ -59,7 +57,7 @@ object frmConvertToFBD: TfrmConvertToFBD
       Width = 372
       Height = 115
       ScrollBars = ssBoth
-      TabOrder = 4
+      TabOrder = 3
       WordWrap = False
     end
     object RzGroupBox2: TGroupBox
@@ -194,16 +192,6 @@ object frmConvertToFBD: TfrmConvertToFBD
         OnClick = btnLoadClick
       end
     end
-    object alFBDAuthors: TFBDAuthorTable
-      Left = 207
-      Top = 127
-      Width = 372
-      Height = 150
-      TabOrder = 3
-      DesignSize = (
-        372
-        150)
-    end
   end
   object pnButtons: TPanel
     Left = 0
@@ -268,7 +256,7 @@ object frmConvertToFBD: TfrmConvertToFBD
     Left = 344
     Top = 256
     Bitmap = {
-      494C010103000800E00010001000FFFFFFFF2110FFFFFFFFFFFFFFFF424D3600
+      494C010103000800040010001000FFFFFFFF2110FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000400000001000000001002000000000000010
       0000000000000000000000000000000000000000000000000000000000000000
       0000838383FF838383FF828282FF828282FF818181FF808080FF808080FF7E7E
@@ -406,11 +394,5 @@ object frmConvertToFBD: TfrmConvertToFBD
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000
       000000000000}
-  end
-  object FBD: TFBDDocument
-    Memo = mmAnnotation
-    Image = FCover
-    Left = 288
-    Top = 256
   end
 end

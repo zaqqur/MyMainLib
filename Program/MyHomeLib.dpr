@@ -146,7 +146,8 @@ uses
   unit_SystemDatabase_Abstract in 'DAO\unit_SystemDatabase_Abstract.pas',
   unit_treeController in 'Units\unit_treeController.pas',
   Vcl.Themes,
-  Vcl.Styles;
+  Vcl.Styles,
+  BookInfoPanel in 'BookInfoPanel.pas';
 
 {$R *.res}
 
@@ -167,7 +168,7 @@ begin
 
     // Важно! сначала создаем датамодули и главную форму, а потом - остальные формы!
     Application.CreateForm(TDMUser, DMUser);
-    DMUser.Init;
+  DMUser.Init;
 
     Application.CreateForm(TfrmMain, frmMain);
     Application.CreateForm(TfrmGenreTree, frmGenreTree);

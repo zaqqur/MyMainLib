@@ -5,31 +5,18 @@ inherited frameNCWOperation: TframeNCWOperation
   Constraints.MinWidth = 330
   ExplicitWidth = 330
   ExplicitHeight = 210
-  object pageHint: TMHLStaticTip [0]
-    AlignWithMargins = True
-    Left = 14
-    Top = 140
-    Width = 302
-    Height = 58
-    Margins.Left = 14
-    Margins.Right = 14
-    Images = DMUser.SeverityImagesBig
-    ImageIndex = 0
-    Align = alTop
-    ExplicitTop = 245
-  end
   inherited pnTitle: TPanel
     Width = 330
     ExplicitWidth = 330
     inherited lblTitle: TLabel
-      Width = 302
+      Width = 85
       Caption = #1058#1080#1087' '#1082#1086#1083#1083#1077#1082#1094#1080#1080
       ExplicitWidth = 85
     end
     inherited lblSubTitle: TLabel
-      Width = 295
+      Width = 168
       Caption = #1059#1082#1072#1078#1080#1090#1077' '#1090#1080#1087' '#1085#1086#1074#1086#1081' '#1082#1086#1083#1083#1077#1082#1094#1080#1080
-      ExplicitWidth = 156
+      ExplicitWidth = 168
     end
   end
   object Panel1: TPanel

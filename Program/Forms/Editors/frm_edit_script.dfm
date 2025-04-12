@@ -11,9 +11,7 @@ object frmEditScript: TfrmEditScript
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
-  OldCreateOrder = False
   Position = poMainFormCenter
-  PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
     Left = 8
@@ -29,7 +27,6 @@ object frmEditScript: TfrmEditScript
     Width = 29
     Height = 13
     Caption = '&'#1055#1091#1090#1100':'
-    FocusControl = edPath
   end
   object Label3: TLabel
     Left = 8
@@ -48,7 +45,7 @@ object frmEditScript: TfrmEditScript
     BevelOuter = bvNone
     Caption = 'pnButtons'
     ShowCaption = False
-    TabOrder = 4
+    TabOrder = 1
     DesignSize = (
       346
       41)
@@ -82,13 +79,6 @@ object frmEditScript: TfrmEditScript
     Width = 330
     Height = 21
     TabOrder = 3
-  end
-  object edPath: TMHLAutoCompleteEdit
-    Left = 8
-    Top = 73
-    Width = 249
-    Height = 21
-    TabOrder = 1
   end
   object edTitle: TEdit
     Left = 8

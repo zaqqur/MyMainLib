@@ -15,14 +15,12 @@ object frmAddnonfb2: TfrmAddnonfb2
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
-  OldCreateOrder = False
   Position = poOwnerFormCenter
   OnCloseQuery = FormCloseQuery
   OnShow = FormShow
   DesignSize = (
     752
     532)
-  PixelsPerInch = 96
   TextHeight = 13
   object pcPages: TPageControl
     AlignWithMargins = True
@@ -36,23 +34,14 @@ object frmAddnonfb2: TfrmAddnonfb2
     TabOrder = 0
     object tsFiles: TTabSheet
       Caption = #1060#1072#1081#1083#1099
-      ExplicitLeft = 0
-      ExplicitTop = 0
-      ExplicitWidth = 0
-      ExplicitHeight = 0
       object Tree: TVirtualStringTree
         AlignWithMargins = True
         Left = 3
         Top = 3
-        Width = 732
-        Height = 365
+        Width = 724
+        Height = 352
         Align = alClient
         Header.AutoSizeIndex = 0
-        Header.Font.Charset = DEFAULT_CHARSET
-        Header.Font.Color = clWindowText
-        Header.Font.Height = -11
-        Header.Font.Name = 'Tahoma'
-        Header.Font.Style = []
         Header.Options = [hoColumnResize, hoDrag, hoShowSortGlyphs, hoVisible]
         PopupMenu = pmMain
         TabOrder = 0
@@ -63,34 +52,40 @@ object frmAddnonfb2: TfrmAddnonfb2
         OnFreeNode = TreeFreeNode
         OnGetText = TreeGetText
         OnPaintText = TreePaintText
+        Touch.InteractiveGestures = [igPan, igPressAndTap]
+        Touch.InteractiveGestureOptions = [igoPanSingleFingerHorizontal, igoPanSingleFingerVertical, igoPanInertia, igoPanGutter, igoParentPassthrough]
+        ExplicitWidth = 732
+        ExplicitHeight = 365
         Columns = <
           item
             Options = [coAllowClick, coDraggable, coEnabled, coParentBidiMode, coParentColor, coResizable, coShowDropMark, coVisible, coAutoSpring, coAllowFocus]
             Position = 0
+            Text = #1060#1072#1081#1083
             Width = 500
-            WideText = #1060#1072#1081#1083
           end
           item
             Position = 1
+            Text = #1058#1080#1087
             Width = 60
-            WideText = #1058#1080#1087
           end
           item
             Options = [coAllowClick, coDraggable, coEnabled, coParentBidiMode, coParentColor, coResizable, coShowDropMark, coVisible, coAutoSpring, coAllowFocus]
             Position = 2
+            Text = #1056#1072#1079#1084#1077#1088
             Width = 100
-            WideText = #1056#1072#1079#1084#1077#1088
           end>
       end
       object gbOptions: TGroupBox
         AlignWithMargins = True
         Left = 3
-        Top = 374
-        Width = 732
+        Top = 361
+        Width = 724
         Height = 85
         Align = alBottom
         Caption = #1054#1087#1094#1080#1080
         TabOrder = 1
+        ExplicitTop = 374
+        ExplicitWidth = 732
         object Label1: TLabel
           Left = 219
           Top = 40
@@ -151,10 +146,6 @@ object frmAddnonfb2: TfrmAddnonfb2
     end
     object tsBookInfo: TTabSheet
       Caption = #1050#1085#1080#1075#1072
-      ExplicitLeft = 0
-      ExplicitTop = 0
-      ExplicitWidth = 0
-      ExplicitHeight = 0
       object Label2: TLabel
         Left = 8
         Top = 17
@@ -494,159 +485,6 @@ object frmAddnonfb2: TfrmAddnonfb2
         Height = 21
         TabOrder = 10
       end
-      object MHLSimplePanel1: TMHLSimplePanel
-        Left = 183
-        Top = 99
-        Width = 552
-        Height = 245
-        TabOrder = 11
-        object PageControl1: TPageControl
-          Left = 0
-          Top = 0
-          Width = 552
-          Height = 245
-          ActivePage = TabSheet1
-          Align = alClient
-          TabOrder = 0
-          object TabSheet1: TTabSheet
-            Caption = #1040#1074#1090#1086#1088#1099' '#1082#1085#1080#1075#1080
-            ExplicitLeft = 0
-            ExplicitTop = 0
-            ExplicitWidth = 0
-            ExplicitHeight = 0
-            object alBookAuthors: TFBDAuthorTable
-              AlignWithMargins = True
-              Left = 3
-              Top = 3
-              Width = 538
-              Height = 211
-              Align = alClient
-              TabOrder = 0
-              DesignSize = (
-                538
-                211)
-            end
-          end
-          object TabSheet2: TTabSheet
-            Caption = #1040#1074#1090#1086#1088#1099' '#1076#1086#1082#1091#1084#1077#1085#1090#1072
-            ImageIndex = 1
-            ExplicitLeft = 0
-            ExplicitTop = 0
-            ExplicitWidth = 0
-            ExplicitHeight = 0
-            object alFBDAuthors: TFBDAuthorTable
-              AlignWithMargins = True
-              Left = 3
-              Top = 3
-              Width = 538
-              Height = 211
-              Align = alClient
-              TabOrder = 0
-              DesignSize = (
-                538
-                211)
-            end
-          end
-          object TabSheet3: TTabSheet
-            Caption = #1040#1085#1085#1086#1090#1072#1094#1080#1103
-            ImageIndex = 2
-            ExplicitLeft = 0
-            ExplicitTop = 0
-            ExplicitWidth = 0
-            ExplicitHeight = 0
-            object mmAnnotation: TMemo
-              AlignWithMargins = True
-              Left = 3
-              Top = 3
-              Width = 538
-              Height = 211
-              Align = alClient
-              ScrollBars = ssBoth
-              TabOrder = 0
-              WordWrap = False
-            end
-          end
-          object TabSheet4: TTabSheet
-            Caption = #1048#1079#1076#1072#1090#1077#1083#1100
-            ImageIndex = 3
-            ExplicitLeft = 0
-            ExplicitTop = 0
-            ExplicitWidth = 0
-            ExplicitHeight = 0
-            DesignSize = (
-              544
-              217)
-            object RzLabel4: TLabel
-              Left = 33
-              Top = 46
-              Width = 27
-              Height = 13
-              Caption = 'ISBN:'
-              FocusControl = edISBN
-            end
-            object RzLabel6: TLabel
-              Left = 308
-              Top = 19
-              Width = 35
-              Height = 13
-              Anchors = [akTop, akRight]
-              Caption = #1043#1086#1088#1086#1076':'
-              FocusControl = edCity
-              ExplicitLeft = 122
-            end
-            object RzLabel7: TLabel
-              Left = 392
-              Top = 46
-              Width = 23
-              Height = 13
-              Anchors = [akTop, akRight]
-              Caption = #1043#1086#1076':'
-              FocusControl = edYear
-              ExplicitLeft = 206
-            end
-            object RzLabel5: TLabel
-              Left = 8
-              Top = 19
-              Width = 52
-              Height = 13
-              Caption = #1053#1072#1079#1074#1072#1085#1080#1077':'
-              FocusControl = edPublisher
-            end
-            object edISBN: TEdit
-              Left = 66
-              Top = 43
-              Width = 320
-              Height = 21
-              Anchors = [akLeft, akTop, akRight]
-              TabOrder = 0
-            end
-            object edPublisher: TEdit
-              Left = 66
-              Top = 16
-              Width = 236
-              Height = 21
-              Anchors = [akLeft, akTop, akRight]
-              TabOrder = 1
-            end
-            object edYear: TEdit
-              Left = 421
-              Top = 43
-              Width = 60
-              Height = 21
-              Anchors = [akTop, akRight]
-              TabOrder = 2
-            end
-            object edCity: TEdit
-              Left = 349
-              Top = 16
-              Width = 132
-              Height = 21
-              Anchors = [akTop, akRight]
-              TabOrder = 3
-            end
-          end
-        end
-      end
     end
   end
   object btnClose: TBitBtn
@@ -692,12 +530,6 @@ object frmAddnonfb2: TfrmAddnonfb2
       OnClick = miClearAllClick
     end
   end
-  object flFiles: TFilesList
-    OnDirectory = flFilesDirectory
-    OnFile = flFilesFile
-    Left = 640
-    Top = 168
-  end
   object pmMain: TPopupMenu
     Left = 640
     Top = 120
@@ -714,11 +546,5 @@ object frmAddnonfb2: TfrmAddnonfb2
       ShortCut = 16453
       OnClick = miOpenExplorerClick
     end
-  end
-  object FBD: TFBDDocument
-    Memo = mmAnnotation
-    Image = FCover
-    Left = 640
-    Top = 72
   end
 end
