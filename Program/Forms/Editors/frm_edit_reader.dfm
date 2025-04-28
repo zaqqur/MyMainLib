@@ -11,9 +11,7 @@ object frmEditReader: TfrmEditReader
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
-  OldCreateOrder = False
   Position = poMainFormCenter
-  PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
     Left = 8
@@ -45,7 +43,7 @@ object frmEditReader: TfrmEditReader
       415
       41)
     object btnOk: TButton
-      Left = 251
+      Left = 241
       Top = 10
       Width = 75
       Height = 25
@@ -55,9 +53,10 @@ object frmEditReader: TfrmEditReader
       ModalResult = 1
       TabOrder = 0
       OnClick = btnSaveClick
+      ExplicitLeft = 251
     end
     object btnCancel: TButton
-      Left = 332
+      Left = 322
       Top = 10
       Width = 75
       Height = 25
@@ -66,6 +65,7 @@ object frmEditReader: TfrmEditReader
       Caption = '&'#1054#1090#1084#1077#1085#1072
       ModalResult = 2
       TabOrder = 1
+      ExplicitLeft = 332
     end
   end
   object edExt: TEdit

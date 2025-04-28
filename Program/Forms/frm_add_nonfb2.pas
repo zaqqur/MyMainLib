@@ -43,7 +43,7 @@ uses
   FBDDocument,
   FBDAuthorTable,
   Buttons,
-  MHLSimplePanel;
+  MHLSimplePanel, System.ImageList, Vcl.ImgList;
 
 type
   TfrmAddnonfb2 = class(TForm)
@@ -116,6 +116,8 @@ type
     edPublisher: TEdit;
     edYear: TEdit;
     edCity: TEdit;
+    btnSearch: TBitBtn;
+    ImageList1: TImageList;
 
     procedure FormShow(Sender: TObject);
     procedure FormCloseQuery(Sender: TObject; var CanClose: Boolean);
@@ -722,7 +724,7 @@ begin
   Data := Tree.GetNodeData(Tree.GetFirstSelected);
   if Data <> nil then
   begin
-    S := AnsiLowercase(Data^.FullPath + Data^.FileName + Data^.Ext);
+    S := WideLowerCase(Data^.FullPath + Data^.FileName + Data^.Ext);
     SimpleShellExecute(Handle, S);
   end;
 end;

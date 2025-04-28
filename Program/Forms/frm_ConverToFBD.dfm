@@ -12,10 +12,8 @@ object frmConvertToFBD: TfrmConvertToFBD
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
-  OldCreateOrder = False
   OnCreate = FormCreate
   OnShow = FormShow
-  PixelsPerInch = 96
   TextHeight = 13
   object RzPanel1: TPanel
     Left = 0
@@ -25,6 +23,8 @@ object frmConvertToFBD: TfrmConvertToFBD
     Align = alClient
     BevelOuter = bvNone
     TabOrder = 0
+    ExplicitWidth = 576
+    ExplicitHeight = 387
     object RzLabel1: TLabel
       Left = 207
       Top = 283
@@ -213,6 +213,8 @@ object frmConvertToFBD: TfrmConvertToFBD
     Align = alBottom
     BevelOuter = bvNone
     TabOrder = 1
+    ExplicitTop = 387
+    ExplicitWidth = 576
     object btnSave: TButton
       Left = 423
       Top = 10
@@ -268,7 +270,7 @@ object frmConvertToFBD: TfrmConvertToFBD
     Left = 344
     Top = 256
     Bitmap = {
-      494C010103000800E00010001000FFFFFFFF2110FFFFFFFFFFFFFFFF424D3600
+      494C010103000800040010001000FFFFFFFF2110FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000400000001000000001002000000000000010
       0000000000000000000000000000000000000000000000000000000000000000
       0000838383FF838383FF828282FF828282FF818181FF808080FF808080FF7E7E

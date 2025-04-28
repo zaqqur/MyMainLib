@@ -68,7 +68,7 @@ end;
 
 function TfrmEditReader.GetExtension: string;
 begin
-  Result := AnsiLowerCase(Trim(edExt.Text));
+  Result := WideLowerCase(Trim(edExt.Text));
 end;
 
 function TfrmEditReader.GetPath: string;

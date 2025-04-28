@@ -8,7 +8,7 @@
         <Base>True</Base>
         <AppType>Package</AppType>
         <FrameworkType>VCL</FrameworkType>
-        <Platform Condition="'$(Platform)'==''">Win64</Platform>
+        <Platform Condition="'$(Platform)'==''">Win32</Platform>
         <TargetedPlatforms>3</TargetedPlatforms>
         <ProjectName Condition="'$(ProjectName)'==''">MHLComponents</ProjectName>
     </PropertyGroup>
@@ -128,7 +128,7 @@
         <DCCReference Include="IndySystem.dcp"/>
         <DCCReference Include="IndyProtocols.dcp"/>
         <DCCReference Include="soaprtl.dcp"/>
-        <DCCReference Include="VirtualTreesDR.dcp"/>
+        <DCCReference Include="VirtualTreesDD.dcp"/>
         <DCCReference Include="unit_StaticTip.pas"/>
         <DCCReference Include="files_list.pas"/>
         <DCCReference Include="MHLComponents_Register.pas"/>

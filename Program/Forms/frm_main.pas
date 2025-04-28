@@ -6220,7 +6220,7 @@ begin
   if not Assigned(Data) or (Data^.nodeType <> ntBookInfo) then
     Exit;
 
-  if (AnsiLowerCase(Data^.FileExt) = FB2_EXTENSION) then
+  if (WideLowerCase(Data^.FileExt) = FB2_EXTENSION) then
   begin
     MHLShowWarning(Format(rstrNotForExtension, [Data^.FileExt]));
     Exit;
