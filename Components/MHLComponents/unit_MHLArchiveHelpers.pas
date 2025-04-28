@@ -169,7 +169,8 @@ begin
 
   for i := 0 to High(FZip.FileInfos) do
   begin
-    FN := TEncoding.UTF8.GetString(FZip.FileInfos[i].FileName);
+    FN := FZip.FileNames[i];
+
     case Mode of
       smFull: begin
                 if FN = AFileName then
@@ -217,7 +218,7 @@ begin
   Result := -1;
   for i := 0 to High(FZip.FileInfos) do
   begin
-    FN := TEncoding.UTF8.GetString(FZip.FileInfos[i].FileName);
+    FN := FZip.FileNames[i];
     if ExtractFileExt(FN) = Ext then
     begin
       Result := FZip.GetFileIndex(FN);
@@ -228,7 +229,7 @@ end;
 
 function TMHLZip.GetLastName: string;
 begin
-  Result := TEncoding.UTF8.GetString(FZip.FileInfos[FLastID].FileName);
+  Result := FZip.FileNames[FLastID];
 end;
 
 function TMHLZip.GetLastSize: Integer;

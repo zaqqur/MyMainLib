@@ -39,6 +39,8 @@ object frmEditReader: TfrmEditReader
     Caption = 'pnButtons'
     ShowCaption = False
     TabOrder = 3
+    ExplicitTop = 28
+    ExplicitWidth = 405
     DesignSize = (
       415
       41)
@@ -53,7 +55,7 @@ object frmEditReader: TfrmEditReader
       ModalResult = 1
       TabOrder = 0
       OnClick = btnSaveClick
-      ExplicitLeft = 251
+      ExplicitLeft = 231
     end
     object btnCancel: TButton
       Left = 322
@@ -65,7 +67,7 @@ object frmEditReader: TfrmEditReader
       Caption = '&'#1054#1090#1084#1077#1085#1072
       ModalResult = 2
       TabOrder = 1
-      ExplicitLeft = 332
+      ExplicitLeft = 312
     end
   end
   object edExt: TEdit

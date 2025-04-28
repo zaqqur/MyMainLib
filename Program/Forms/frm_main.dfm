@@ -777,7 +777,7 @@ object frmMain: TfrmMain
         object SerieBookInfoSplitter: TMHLSplitter
           Left = 0
           Top = 415
-          Width = 537
+          Width = 547
           Height = 3
           Cursor = crVSplit
           Align = alBottom
@@ -789,7 +789,7 @@ object frmMain: TfrmMain
           AlignWithMargins = True
           Left = 3
           Top = 421
-          Width = 531
+          Width = 541
           Height = 150
           Align = alBottom
           Color = clBlack
@@ -798,12 +798,13 @@ object frmMain: TfrmMain
           OnAuthorLinkClicked = AuthorLinkClicked
           OnSeriesLinkClicked = SeriesLinkClicked
           OnGenreLinkClicked = GenreLinkClicked
+          ExplicitWidth = 531
         end
         object pnSerieBooksTitle: TMHLSimplePanel
           AlignWithMargins = True
           Left = 3
           Top = 3
-          Width = 531
+          Width = 541
           Height = 26
           Align = alTop
           Font.Charset = DEFAULT_CHARSET
@@ -813,8 +814,9 @@ object frmMain: TfrmMain
           Font.Style = [fsBold]
           ParentFont = False
           TabOrder = 0
+          ExplicitWidth = 531
           object lblBooksTotalS: TLabel
-            Left = 424
+            Left = 434
             Top = 0
             Width = 107
             Height = 26
@@ -822,7 +824,6 @@ object frmMain: TfrmMain
             Alignment = taRightJustify
             Caption = '('#1082#1086#1083#1080#1095#1077#1089#1090#1074#1086' '#1082#1085#1080#1075')'
             Layout = tlCenter
-            ExplicitLeft = 434
             ExplicitHeight = 13
           end
           object lblSeries: TLabel
@@ -836,7 +837,7 @@ object frmMain: TfrmMain
             ExplicitHeight = 13
           end
           object lbl1: TLabel
-            Left = 330
+            Left = 340
             Top = 0
             Width = 31
             Height = 26
@@ -844,13 +845,12 @@ object frmMain: TfrmMain
             Alignment = taRightJustify
             Caption = #1071#1079#1099#1082
             Layout = tlCenter
-            ExplicitLeft = 340
             ExplicitHeight = 13
           end
           object cbLangSelectS: TComboBox
             Tag = 1
             AlignWithMargins = True
-            Left = 364
+            Left = 374
             Top = 3
             Width = 50
             Height = 21
@@ -1062,14 +1062,15 @@ object frmMain: TfrmMain
       object pnGenreBooksView: TMHLSimplePanel
         Left = 233
         Top = 0
-        Width = 537
+        Width = 547
         Height = 644
         Align = alClient
         TabOrder = 1
+        ExplicitWidth = 537
         object GenreBookInfoSplitter: TMHLSplitter
           Left = 0
           Top = 535
-          Width = 537
+          Width = 547
           Height = 3
           Cursor = crVSplit
           Align = alBottom
@@ -1081,7 +1082,7 @@ object frmMain: TfrmMain
           AlignWithMargins = True
           Left = 3
           Top = 3
-          Width = 531
+          Width = 541
           Height = 26
           Align = alTop
           Font.Charset = DEFAULT_CHARSET
@@ -1091,8 +1092,9 @@ object frmMain: TfrmMain
           Font.Style = [fsBold]
           ParentFont = False
           TabOrder = 0
+          ExplicitWidth = 531
           object lblBooksTotalG: TLabel
-            Left = 424
+            Left = 434
             Top = 0
             Width = 107
             Height = 26
@@ -1100,7 +1102,6 @@ object frmMain: TfrmMain
             Alignment = taRightJustify
             Caption = '('#1082#1086#1083#1080#1095#1077#1089#1090#1074#1086' '#1082#1085#1080#1075')'
             Layout = tlCenter
-            ExplicitLeft = 434
             ExplicitHeight = 13
           end
           object lblGenreTitle: TLabel
@@ -1114,7 +1115,7 @@ object frmMain: TfrmMain
             ExplicitHeight = 13
           end
           object lbl2: TLabel
-            Left = 330
+            Left = 340
             Top = 0
             Width = 31
             Height = 26
@@ -1122,13 +1123,12 @@ object frmMain: TfrmMain
             Alignment = taRightJustify
             Caption = #1071#1079#1099#1082
             Layout = tlCenter
-            ExplicitLeft = 340
             ExplicitHeight = 13
           end
           object cbLangSelectG: TComboBox
             Tag = 2
             AlignWithMargins = True
-            Left = 364
+            Left = 374
             Top = 3
             Width = 50
             Height = 21
@@ -1275,10 +1275,11 @@ object frmMain: TfrmMain
       object pnSearchBooksView: TMHLSimplePanel
         Left = 233
         Top = 0
-        Width = 537
+        Width = 547
         Height = 644
         Align = alClient
         TabOrder = 1
+        ExplicitWidth = 537
         object SearchBookInfoSplitter: TMHLSplitter
           Left = 0
           Top = 485
@@ -1324,7 +1325,7 @@ object frmMain: TfrmMain
             Left = 424
             Top = 0
             Width = 107
-            Height = 26
+            Height = 13
             Align = alRight
             Alignment = taRightJustify
             Caption = '('#1082#1086#1083#1080#1095#1077#1089#1090#1074#1086' '#1082#1085#1080#1075')'
@@ -1335,7 +1336,6 @@ object frmMain: TfrmMain
             Font.Style = [fsBold]
             ParentFont = False
             Layout = tlCenter
-            ExplicitHeight = 13
           end
           object cbPresetName: TComboBox
             Left = 42
@@ -1499,6 +1499,7 @@ object frmMain: TfrmMain
             Top = 491
             Caption = #1056#1072#1079#1085#1086#1077
             TabOrder = 0
+            ExplicitWidth = 185
             object Label30: TLabel
               Left = 7
               Top = 97
@@ -1973,14 +1974,15 @@ object frmMain: TfrmMain
       object pnGroupBooksView: TMHLSimplePanel
         Left = 233
         Top = 0
-        Width = 537
+        Width = 547
         Height = 644
         Align = alClient
         TabOrder = 1
+        ExplicitWidth = 537
         object GroupBookInfoSplitter: TMHLSplitter
           Left = 0
           Top = 485
-          Width = 537
+          Width = 547
           Height = 3
           Cursor = crVSplit
           Align = alBottom
@@ -1992,7 +1994,7 @@ object frmMain: TfrmMain
           AlignWithMargins = True
           Left = 3
           Top = 491
-          Width = 531
+          Width = 541
           Height = 150
           Align = alBottom
           Color = clBlack
@@ -2001,12 +2003,13 @@ object frmMain: TfrmMain
           OnAuthorLinkClicked = AuthorLinkClicked
           OnSeriesLinkClicked = SeriesLinkClicked
           OnGenreLinkClicked = GenreLinkClicked
+          ExplicitWidth = 531
           DesignSize = (
             531
             150)
           object lblTotalBooksF: TLabel
             AlignWithMargins = True
-            Left = 1798
+            Left = 1765
             Top = 9
             Width = 12
             Height = 19
@@ -2038,7 +2041,7 @@ object frmMain: TfrmMain
           ParentFont = False
           TabOrder = 0
           object lblBooksTotalF: TLabel
-            Left = 424
+            Left = 434
             Top = 0
             Width = 107
             Height = 26
@@ -2046,7 +2049,6 @@ object frmMain: TfrmMain
             Alignment = taRightJustify
             Caption = '('#1082#1086#1083#1080#1095#1077#1089#1090#1074#1086' '#1082#1085#1080#1075')'
             Layout = tlCenter
-            ExplicitLeft = 434
             ExplicitHeight = 13
           end
           object lblGroups: TLabel
@@ -2060,7 +2062,7 @@ object frmMain: TfrmMain
             ExplicitHeight = 13
           end
           object lbl3: TLabel
-            Left = 330
+            Left = 340
             Top = 0
             Width = 31
             Height = 26
@@ -2068,13 +2070,12 @@ object frmMain: TfrmMain
             Alignment = taRightJustify
             Caption = #1071#1079#1099#1082
             Layout = tlCenter
-            ExplicitLeft = 340
             ExplicitHeight = 13
           end
           object cbLangSelectF: TComboBox
             Tag = 4
             AlignWithMargins = True
-            Left = 364
+            Left = 374
             Top = 3
             Width = 50
             Height = 21
